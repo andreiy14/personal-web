@@ -106,5 +106,5 @@ function getDistancetime(time){
   
 }
 setInterval(()=>{
-  manipulation()
+  render()
 },1000)
