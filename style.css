@@ -8,7 +8,7 @@
 /* Navbar */
 nav {
   display: flex;
-  background: gray;
+  background: white;
   height: 7vh;
 }
 
@@ -39,8 +39,11 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #000000;
   text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 900;
+    margin-left: 20px;
 }
 
 nav ul li a.list-active {

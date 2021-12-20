@@ -4,8 +4,9 @@ body{
 }
 
 nav{
-    background-color: gray;
+    background-color: white;
     display: flex;
+    border-bottom: 1px solid rgb(241, 230, 230);
 }
 
 
@@ -27,8 +28,10 @@ nav .left ul li{
     display: inline;
 }
 nav .left ul li a{
-     text-decoration: none;
+    text-decoration: none;
     color: black;
+    font-size: 18px;
+    font-weight: 900;
     margin-left: 20px;
 }
 
@@ -45,7 +48,8 @@ nav .right{
 }
 .right a{
     text-decoration: none;
-    color: white;
+    color: black;
+    background-color: white;
     
     padding : 10px 20px;
     border-radius: 10px;

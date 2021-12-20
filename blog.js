@@ -15,9 +15,9 @@ function addBlog(event){
   }
    
     blogs.push(blog)
-    manipulation()
+    render()
 }
-function manipulation(){
+function render(){
     let contentContainer = document.getElementById('contents')
 
     contentContainer.innerHTML = ''
@@ -73,7 +73,7 @@ function getFulltime (time){
   let year = time.getFullYear()
   let hours = time.getHours()
   let minutes = time.getMinutes()
-  let result = `${date}-${monthIndex}-${year} ${hours}:${minutes} WIBaa`
+  let result = `${date}-${monthIndex}-${year} ${hours}:${minutes} WIB`
   return result
 }
 
